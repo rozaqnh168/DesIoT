@@ -151,6 +151,3 @@ Kelembapan: 65.00 %
 | Blynk terhubung tetapi widget kosong | Pastikan datastream dan widget menggunakan V0 untuk suhu serta V1 untuk kelembapan. |
 | ThingSpeak tidak menerima data | Periksa Channel ID, Write API Key, Field 1 dan Field 2, koneksi internet, serta batas interval layanan pada akun yang digunakan. |
 
-## Status dan batas implementasi
-
-Kode pembacaan dan pengiriman sudah tersedia, tetapi keberhasilan pada perangkat fisik serta kedua layanan perlu dibuktikan melalui pengujian. Kode saat ini tidak menampilkan status respons pengiriman ThingSpeak dan tidak mencetak pesan saat pembacaan sensor gagal. Karena itu, keluaran sensor di Serial Monitor saja belum membuktikan data sudah diterima oleh kedua layanan.
